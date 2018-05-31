@@ -21,6 +21,10 @@ if __name__ == '__main__':
         print("Total area: {}".format(area))
     else:
         print("Error: no good circles.")
+    for circle in circles:
+        print("\n x {}".format(circle[0]))
+        print(" y {}".format(circle[1]))
+        print(" r {}".format(circle[2]))
 
 
 
